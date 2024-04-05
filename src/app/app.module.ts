@@ -8,6 +8,7 @@ import { ComDiretivaComponent } from './com-diretiva/com-diretiva.component';
 import { HightlightDirective } from './directives/highlight.directive';
 import { DisabledDirective } from './directives/disabled.directive';
 import { StyleDirective } from './directives/style.directive';
+import { ClassDirecttive } from './directives/class.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StyleDirective } from './directives/style.directive';
     ComDiretivaComponent,
     HightlightDirective,
     DisabledDirective,
-    StyleDirective
+    StyleDirective,
+    ClassDirecttive,
   ],
   imports: [
     BrowserModule,

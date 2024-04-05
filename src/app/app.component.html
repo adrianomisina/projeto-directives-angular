@@ -10,7 +10,7 @@
 
 <button appDisabled>Meu botão prop diretiva</button> -->
 
-<p style="background-color: orange; color: white;">Parágrafo Normal</p>
+<!-- <p style="background-color: orange; color: white;">Parágrafo Normal</p>
 
 <p [attr.style]="'background-color: orange; color: white;'">Attr</p>
 
@@ -21,4 +21,17 @@
   color: 'white',
 }">Prop Obj</p>
 
-<p appStyle>Diretiva</p>
+<p appStyle>Diretiva</p> -->
+
+<p class="meu-texto">Normal</p>
+
+<p [attr.class]="'meu-texto'">Attr</p>
+
+<p [className]="'meu-texto meu-size'">Prop</p>
+
+<p [class]="{
+  'meu-texto': true,
+  'meu-size': true
+}">Prop Class Name</p>
+
+<p appClass>Diretiva</p>
